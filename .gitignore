@@ -1,3 +1,38 @@
+HELP.md
+target/
+target/*.*
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+logs/
+*.log
+
+### STS ###
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+# Mac OSX
+.DS_Store
+/.metadata/
 # Compiled class file
 *.class
 
